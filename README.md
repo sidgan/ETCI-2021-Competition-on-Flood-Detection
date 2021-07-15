@@ -29,6 +29,10 @@ Our scripts and notebooks make use of mixed-precision training (via [`torch.cuda
 
 **Execution instructions for the scripts (`src`) and notebooks (`notebooks`) are provided in their respective directories.** 
 
+## Pre-trained weights
+
+For complete reproducibility, we provide the pre-trained weights [here](https://github.com/sidgan/ETCI-2021-Competition-on-Flood-Detection/releases/download/v1.0.0/pretrained_weights.tar.gz). 
+
 ## FAQ
 
 - [Create a new Notebooks instance](https://cloud.google.com/notebooks/docs/create-new)
