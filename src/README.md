@@ -6,7 +6,7 @@ Data exploration is available in `notebooks/Data_Viz.ipynb`.
 
 ## Training and Submission
 
-1. `train.py`: First we train two models on the training set: UNet [1] and UNet++ [2] with a MobileNetV2 [3] backend.
+1. `train.py`: First, we train two models on the training set: UNet [1] and UNet++ [2] with a MobileNetV2 [3] backend.
 2. `notebooks/Generate_Pseudo.ipynb`:
     * We then use their averaged ensemble to generate pseudo-labels on the unlabeled test set.
     * We then create a new training set with these generated pseudo-labels and the existing training set.
@@ -22,8 +22,8 @@ in the last iteration) to the ensemble.
 
 After completing training for the final round, we do the following:
 
-* Using the `notebooks/Ensemble_Inference.ipynb` notebook we first generate the initial predictions. We use stacking for ensembling. 
-* We then apply Conditional Random Fields [4] on the predictions to enhance segmentation boundaries. This is demonstrated in `notebooks/Apply_CRF.ipynb` notebook.
+* Using the `notebooks/Ensemble_Inference.ipynb` notebook, we first generate the initial predictions. We use stacking for ensembling. 
+* We then apply Conditional Random Fields [4] on the predictions to enhance segmentation boundaries. This is demonstrated in the `notebooks/Apply_CRF.ipynb` notebook.
 
 ### Additional notes on our inference pipeline
 
@@ -32,7 +32,7 @@ After completing training for the final round, we do the following:
 * To further account for uncertainty and improve our predictions, we apply test-time augmentation using the [`ttach`](https://github.com/qubvel/ttach)
 library. 
   
-In case you have any difficulties understanding the overall workflow feel free open an issue on GitHub and we will get back to you. 
+In case you have any difficulties understanding the overall workflow feel free to open an issue on GitHub and we will get back to you. 
 
 ## References
 
