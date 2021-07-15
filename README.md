@@ -1,6 +1,16 @@
 # Flood Detection Challenge
 
-This repository contains code for the [ETCI 2021 Competition on Flood Detection](https://competitions.codalab.org/competitions/30440) submission. 
+This repository contains code for our submission to the [ETCI 2021 Competition on Flood Detection](https://competitions.codalab.org/competitions/30440). 
+
+
+Paper link: To be updated.
+
+
+## Team 
+
+* [Siddha Ganju](http://sidgan.github.io/siddhaganju)
+* [Sayak Paul](https://sayak.dev)
+
 
 ## Executing the code
 
