@@ -1,0 +1,8 @@
+albumentations
+catalyst
+opencv-python
+scikit-image
+ray
+torch
+torchvision
+ttach

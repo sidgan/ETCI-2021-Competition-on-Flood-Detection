@@ -1,0 +1,10 @@
+## About the notebooks
+
+* `Apply_CRF.ipynb`: Applies Conditional Random Fields [1] as a post-processing step with the [`pydensecrf` library](https://github.com/lucasb-eyer/pydensecrf). 
+* `Data_Viz.ipynb`: Data visualization notebook.
+* `Ensemble_Inference.ipynb`: Creates inference with an ensemble. 
+* `Generate_Pseudo.ipynb`: Prepares pseudo labels.
+
+## References
+
+[1] Philipp Krähenbühl and Vladlen Koltun. 2011. Efficient inference in fully connected CRFs with Gaussian edge potentials. In <i>Proceedings of the 24th International Conference on Neural Information Processing Systems</i> (<i>NIPS'11</i>). Curran Associates Inc., Red Hook, NY, USA, 109–117.
