@@ -48,7 +48,7 @@ For complete reproducibility, we provide the pre-trained weights [here](https://
 ## Acknowledgements
 
 * We are grateful to the [ML-GDE program](https://developers.google.com/programs/experts/) for providing GCP credits to support our experiments. 
-* Thanks to [Charmi Chokshi](https://in.linkedin.com/in/charmichokshi) for insightful discussions.
+* Thanks to [Charmi Chokshi](https://in.linkedin.com/in/charmichokshi), and domain experts Nick Leach, and, Veda Sunkara for insightful discussions.
 
 ## Citation
 
