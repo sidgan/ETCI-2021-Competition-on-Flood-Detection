@@ -5,8 +5,12 @@ This repository contains code for our submission to the [ETCI 2021 Competition o
 
 Accompanying paper: [Flood Segmentation on Sentinel-1 SAR Imagery with Cyclical Pseudo Labeling] (TBD).
 
+by Sayak Paul\*, Siddha Ganju\*.
+
+(\*) equal contribution.
+
 <div align="center">
-	<img src="https://i.ibb.co/pf7KZk7/pipeline.png" width=600>
+	<img src="https://i.ibb.co/X7chPyT/pipeline.png" width=600>
 </div>
 
 
