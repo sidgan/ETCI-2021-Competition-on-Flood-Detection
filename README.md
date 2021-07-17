@@ -3,7 +3,11 @@
 This repository contains code for our submission to the [ETCI 2021 Competition on Flood Detection](https://competitions.codalab.org/competitions/30440). 
 
 
-Paper link: To be updated.
+Accompanying paper: [Flood Segmentation on Sentinel-1 SAR Imagery with Cyclical Pseudo Labeling] (TBD).
+
+<div align="center">
+	<img src="https://i.ibb.co/pf7KZk7/pipeline.png" width=600>
+</div>
 
 
 ## Team 
@@ -41,3 +45,9 @@ For complete reproducibility, we provide the pre-trained weights [here](https://
 
 * We are grateful to the [ML-GDE program](https://developers.google.com/programs/experts/) for providing GCP credits to support our experiments. 
 * Thanks to [Charmi Chokshi](https://in.linkedin.com/in/charmichokshi) for insightful discussions.
+
+## Citation
+
+```
+
+```
