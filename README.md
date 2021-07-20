@@ -3,7 +3,7 @@
 This repository contains code for our submission to the [ETCI 2021 Competition on Flood Detection](https://competitions.codalab.org/competitions/30440). 
 
 
-Accompanying paper: [Flood Segmentation on Sentinel-1 SAR Imagery with Semi-Supervised Learning] (TBD).
+Accompanying paper: [Flood Segmentation on Sentinel-1 SAR Imagery with Semi-Supervised Learning](http://arxiv.org/abs/2107.08369).
 
 by Sayak Paul\*, Siddha Ganju\*.
 
