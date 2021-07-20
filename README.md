@@ -53,5 +53,12 @@ For complete reproducibility, we provide the pre-trained weights [here](https://
 ## Citation
 
 ```
-
+@misc{paul2021flood,
+      title={Flood Segmentation on Sentinel-1 SAR Imagery with Semi-Supervised Learning}, 
+      author={Sayak Paul and Siddha Ganju},
+      year={2021},
+      eprint={2107.08369},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
