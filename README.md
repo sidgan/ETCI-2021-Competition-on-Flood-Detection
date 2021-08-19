@@ -39,7 +39,7 @@ Our scripts and notebooks make use of mixed-precision training (via [`torch.cuda
 
 ## Pre-trained weights
 
-For complete reproducibility, we provide the pre-trained weights [here](https://github.com/sidgan/ETCI-2021-Competition-on-Flood-Detection/releases/download/v1.0.0/pretrained_weights.tar.gz). With these weights and the workflow depicted in the notebooks and scripts one should be able to get an IoU of ~0.76 (as per the [competition leaderboard](https://competitions.codalab.org/competitions/30440#results)) on the test set provided at the competition. Scores noted in the paper were noted as of July 15, 2021, 11 p.m., GMT at the end of Phase-2 of the competition and may change due to evaluation on potential hidden hold-out test sets. 
+For complete reproducibility, we provide the pre-trained weights [here](https://github.com/sidgan/ETCI-2021-Competition-on-Flood-Detection/releases/download/v1.0.0/pretrained_weights.tar.gz). With these weights and the workflow depicted in the notebooks and scripts one should be able to get an IoU of ~0.76 (as per the [competition leaderboard](https://competitions.codalab.org/competitions/30440#results)) on the test set provided at the competition.
 
 ## Results
 
