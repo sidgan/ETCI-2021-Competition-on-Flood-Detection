@@ -7,7 +7,9 @@ import torch.distributed as dist
 
 
 def global_meters_all_avg(rank, world_size, *meters):
-    tensors = [torch.tensor(meter, device=rank, dtype=torch.float32) for meter in meters]
+    tensors = [
+        torch.tensor(meter, device=rank, dtype=torch.float32) for meter in meters
+    ]
     for tensor in tensors:
         # each item of `tensors` is all-reduced starting from index 0 (in-place)
         dist.all_reduce(tensor)
