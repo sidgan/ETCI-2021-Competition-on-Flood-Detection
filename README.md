@@ -1,6 +1,7 @@
 # Flood Detection Challenge
 
-This repository contains code for our submission to the [ETCI 2021 Competition on Flood Detection](https://competitions.codalab.org/competitions/30440). 
+This repository contains code for our submission to the [ETCI 2021 Competition on Flood Detection](https://competitions.codalab.org/competitions/30440) (Winning
+Solution #2). 
 
 
 Accompanying paper: [Flood Segmentation on Sentinel-1 SAR Imagery with Semi-Supervised Learning](http://arxiv.org/abs/2107.08369).
