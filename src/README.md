@@ -37,7 +37,7 @@ In case you have any difficulties understanding the overall workflow feel free t
 ## Semi-supervision with approaches from Noisy Student Training and AdaMatch
 
 We explore another avenue of semi-supervision in this work motivated by Noisy Student Training [5] and AdaMatch [6]. You can find the training
-approach here in this script: [`nst_pseudo_label.py`]. It does not require cyclic pseudo-labeling but still yields good results. Even though it
+approach here in this script: [`nst_pseudo_label.py`]. It does not require cyclical pseudo-labeling but still yields good results. Even though it
 does not get us the best results we think this is a promising avenue to explore further. For more details, please refer to the code and our paper. If you
 have doubts feel free to open an issue and we will try to clarify further.
 
