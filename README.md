@@ -43,7 +43,8 @@ For complete reproducibility, we provide the pre-trained weights [here](https://
 
 ## Results
 
-You can verify the reported results [here](https://competitions.codalab.org/competitions/30440#results). 
+You can verify the reported results [here](https://competitions.codalab.org/competitions/30440#results). Just switch to "Test (Phase 2)" after
+clicking the link.
 
 <div align="center">
 	<img src="https://i.ibb.co/q7RWwZB/image.png"/>
