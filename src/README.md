@@ -14,12 +14,13 @@ _**⚠️ &nbsp;&nbsp; Make sure the data is downloaded and is placed in the rig
     * We then use their averaged ensemble to generate pseudo-labels on the unlabeled test set.
     * We then create a new training set with these generated pseudo-labels and the existing training set.
 4. `train_pseudo_label.py`: We fine-tune the **UNet model weights** obtained from step 1 on this newly created training set. Note that to run this script one _must_ first run the `notebooks/Generate_Pseudo.ipynb` notebook, generate the pseudo-labels and set the dataframe path (`pseudo_df` variable) accordingly inside this script. 
-5. Repeat for n rounds.
+5. Repeat for n rounds. In our experiments, we do it for 2 rounds. 
 
 
 **Note**: After the first round of pseudo-labeling, we refine our pseudo-labels. This process is again
 governed by an averaged ensemble but instead of using just two models we also add the model (trained with pseudo-labels
-in the last iteration) to the ensemble. 
+in the last iteration) to the ensemble. This change is incorporated in the `notebooks/Generate_Pseudo.ipynb` notebook
+and is executed thereafter.
 
 > This idea of pseudo-label generation is taken from this talk: [How to cook pseudo-labels](https://www.youtube.com/watch?v=SsnWM1xWDu4).
 
