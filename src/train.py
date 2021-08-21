@@ -2,14 +2,14 @@ import numpy as np
 import albumentations as A
 
 from torch.utils.data import DataLoader
-from src.utils import sampler_utils
 from torch.nn.parallel import DistributedDataParallel
 from torch.utils.data.distributed import DistributedSampler
-import torch
 import torch.multiprocessing as mp
 import segmentation_models_pytorch as smp
+import torch
 
 from etci_dataset import ETCIDataset
+from utils import sampler_utils
 from utils import dataset_utils
 from utils import metric_utils
 from utils import worker_utils
