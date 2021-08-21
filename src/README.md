@@ -6,7 +6,7 @@ Data exploration is available in `notebooks/Data_Viz.ipynb`.
 
 ## Training and Submission
 
-_**Make sure the data is downloaded is placed in the right paths as specified in
+_**Make sure the data is downloaded and is placed in the right paths as specified in
 `src/config.py`**_.
 
 1. `train.py`: First, we train two models on the training set: UNet [1] and UNet++ [2] with a MobileNetV2 [3] backend.
