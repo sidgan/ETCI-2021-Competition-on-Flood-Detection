@@ -295,7 +295,7 @@ def train(
 
     #  serialization of model weights
     if rank == 0:
-        torch.save(student_model.module.state_dict(), f"student_path_{rank}.pth")
+        torch.save(student_model.module.state_dict(), f"{student_path}_{rank}.pth")
 
 
 WORLD_SIZE = torch.cuda.device_count()

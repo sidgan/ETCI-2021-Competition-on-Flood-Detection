@@ -37,6 +37,7 @@ logging.basicConfig(
 
 
 def get_dataloader(rank, world_size):
+    """Creates the data loaders."""
     # create dataframes
     train_df = dataset_utils.create_df(config.train_dir)
     valid_df = dataset_utils.create_df(config.valid_dir)
@@ -97,6 +98,14 @@ def get_dataloader(rank, world_size):
 
 
 def create_model(model_class, backbone):
+    """Initializes a segmentation model.
+
+    Args:
+        model_class: One of smp.Unet, smp.UnetPlusPlus
+        backbone: Encoder backbone. Should always be "mobilenet_v2"
+                    for this purpose.
+
+    """
     model = model_class(
         encoder_name=backbone, encoder_weights=None, in_channels=3, classes=2
     )
@@ -104,12 +113,13 @@ def create_model(model_class, backbone):
 
 
 def train(rank, num_epochs, world_size):
+    """Trains the segmentation model using distributed training."""
     # initialize the workers and fix the seeds
     worker_utils.init_process(rank, world_size)
     torch.manual_seed(0)
 
     # model loading and off-loading to the current device
-    model = create_model()
+    model = create_model(smp.Unet, "mobilenet_v2")
     torch.cuda.set_device(rank)
     model.cuda(rank)
     model = DistributedDataParallel(model, device_ids=[rank])

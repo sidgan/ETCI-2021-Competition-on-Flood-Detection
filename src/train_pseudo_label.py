@@ -45,6 +45,7 @@ logging.basicConfig(
 
 
 def get_dataloader(rank, world_size):
+    """Creates the data loaders."""
     # create dataframes
     train_df = dataset_utils.create_df(config.train_dir)
     valid_df = dataset_utils.create_df(config.valid_dir)
@@ -108,15 +109,21 @@ def get_dataloader(rank, world_size):
     return train_loader, val_loader
 
 
-def create_model(weights):
+def create_model(weight_path):
+    """Initializes a segmentation model and loads the weights into it.
+
+    Args:
+        weight_path: Path to the pre-trained model weights.
+    """
     model = smp.Unet(
         encoder_name="mobilenet_v2", encoder_weights=None, in_channels=3, classes=2
     )
-    model.load_state_dict(torch.load(weights))
+    model.load_state_dict(torch.load(weight_path))
     return model
 
 
 def train(rank, num_epochs, world_size, pretrained_path, finetune_path):
+    """Fine-tunes the segmentation model using distributed training."""
     # initialize the workers and fix the seeds
     worker_utils.init_process(rank, world_size)
     torch.manual_seed(0)

@@ -97,4 +97,4 @@ def filter_df(df):
 
         if binary_value_check is True:
             remove_indices.append(i)
-        return remove_indices
+    return remove_indices
