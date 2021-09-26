@@ -58,7 +58,7 @@ clicking the link.
 ## Acknowledgements
 
 * We are grateful to the [ML-GDE program](https://developers.google.com/programs/experts/) for providing GCP credits to support our experiments. 
-* Thanks to [Charmi Chokshi](https://in.linkedin.com/in/charmichokshi), and domain experts Nick Leach and Veda Sunkara for insightful discussions.
+* Thanks to [Charmi Chokshi](https://in.linkedin.com/in/charmichokshi), and domain experts Shubhankar Gahlot, May Casterline, Ron Hagensieker, Lucas Kruitwagen, Aranildo Rodrigues, Bertrand Le Saux, Sam Budd, Nick Leach, and, Veda Sunkara for insightful discussions.
 
 ## Citation
 
