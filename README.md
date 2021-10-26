@@ -1,8 +1,7 @@
 # Flood Detection Challenge
 
-This repository contains code for our submission to the [ETCI 2021 Competition on Flood Detection](https://competitions.codalab.org/competitions/30440) (Winning
+This repository contains code for our submission to the **ETCI 2021 Competition on Flood Detection** ([Leaderboard](https://competitions.codalab.org/competitions/30440), [Homepage](https://nasa-impact.github.io/etci2021/)) (Winning
 Solution #2). 
-
 
 Accompanying paper: [Flood Segmentation on Sentinel-1 SAR Imagery with Semi-Supervised Learning](http://arxiv.org/abs/2107.08369).
 
@@ -14,6 +13,7 @@ by Sayak Paul\*, Siddha Ganju\*.
 	<img src="https://i.ibb.co/X7chPyT/pipeline.png" width=600/>
 </div>
 
+**Update (October 26, 2021)**: Our work made it to the following NeurIPS 2021 workshops: AI for Science: Mind the Gaps, Tackling Climate Change with Machine Learning, Women in ML, and Machine Learning and the Physical Sciences.
 
 ## Team 
 
