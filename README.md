@@ -11,7 +11,7 @@ by Sayak Paul\*, Siddha Ganju\*.
 
 <div align="center">
 	<img src="https://i.ibb.co/X7chPyT/pipeline.png" width=600/>
-</div>
+</div><br>
 
 **Update (October 26, 2021)**: Our work made it to the following NeurIPS 2021 workshops: AI for Science: Mind the Gaps, Tackling Climate Change with Machine Learning, Women in ML, and Machine Learning and the Physical Sciences.
 
