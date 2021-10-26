@@ -64,10 +64,10 @@ clicking the link.
 
 ```
 @inproceedings{paul2021flood,
-  title   = {Flood Segmentation on Sentinel-1 SAR Imagery with Semi-Supervised Learning},
-  author  = {Sayak Paul and Siddha Ganju},
-  year    = {2021},
-  URL = {https://arxiv.org/abs/2107.08369},
-  booktitle   = {Tackling Climate Change with Machine Learning Workshop}
+    title   = {Flood Segmentation on Sentinel-1 SAR Imagery with Semi-Supervised Learning},
+    author  = {Sayak Paul and Siddha Ganju},
+    year    = {2021},
+    URL = {https://arxiv.org/abs/2107.08369},
+    booktitle = {NeurIPS Tackling Climate Change with Machine Learning Workshop}
 }
 ```
