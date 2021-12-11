@@ -13,7 +13,9 @@ by Sayak Paul\*, Siddha Ganju\*.
 	<img src="https://i.ibb.co/X7chPyT/pipeline.png" width=600/>
 </div><br>
 
-**Update (October 26, 2021)**: Our work made it to the following NeurIPS 2021 workshops: AI for Science: Mind the Gaps, Tackling Climate Change with Machine Learning, Women in ML, and Machine Learning and the Physical Sciences.
+**Update (December 11, 2021)**: We are releasing a [presentation deck](https://docs.google.com/presentation/d/1CMNK5FuNht_m6owi8lSHd0ksa50JVPeYU88XF39AzA4/edit?usp=sharing), a [presentation video](https://recorder-v3.slideslive.com/?share=52682&s=0258146f-46b5-4696-83a8-60ab25be06c7), and [a poster](https://drive.google.com/file/d/1FGf-Jz42kcicNmhoR1e26Z5MSicChrZr/view?usp=sharing) (thanks for the PyTorch team) of our work. 
+
+**Update (October 26, 2021)**: Our work made it to the following NeurIPS 2021 workshops: _AI for Science: Mind the Gaps_, _Tackling Climate Change with Machine Learning_, _Women in ML_, and _Machine Learning and the Physical Sciences_.
 
 ## Team 
 
