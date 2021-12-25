@@ -39,7 +39,7 @@ $ pip install git+https://github.com/lucasb-eyer/pydensecrf.git
 
 Our scripts and notebooks make use of mixed-precision training (via [`torch.cuda.amp`](https://pytorch.org/docs/stable/notes/amp_examples.html)) and distributed training (via [`torch.nn.parallelDistributedDataParallel`](https://pytorch.org/docs/stable/generated/torch.nn.parallel.DistributedDataParallel.html)). With this combination we are able to achieve significant boosts in the overall model training time.
 
-**Execution instructions for the scripts (`src`) and notebooks (`notebooks`) are provided in their respective directories.** 
+**Execution instructions for the scripts (`src`) and notebooks (`notebooks`) are provided in their respective directories.** Download the data from the [competion website](https://nasa-impact.github.io/etci2021/) following their license agreements.
 
 ## Pre-trained weights
 
