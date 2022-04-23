@@ -13,6 +13,8 @@ by Sayak Paul\*, Siddha Ganju\*.
 	<img src="https://i.ibb.co/X7chPyT/pipeline.png" width=600/>
 </div><br>
 
+**Update (April 23, 2022)**: We got a [shoutout from PyTorch](https://twitter.com/PyTorch/status/1517662119700795392).
+
 **Update (December 11, 2021)**: We are releasing a [presentation deck](https://docs.google.com/presentation/d/1CMNK5FuNht_m6owi8lSHd0ksa50JVPeYU88XF39AzA4/edit?usp=sharing), a [presentation video](https://recorder-v3.slideslive.com/?share=52682&s=0258146f-46b5-4696-83a8-60ab25be06c7), and [a poster](https://docs.google.com/presentation/d/1zza2g-9YTsifrq3v10YWz5tbNcsAV0ILANTfuz-IgSI/edit?usp=sharing) of our work. 
 
 **Update (October 26, 2021)**: Our work made it to the following NeurIPS 2021 workshops: [_AI for Science: Mind the Gaps_](https://ai4sciencecommunity.github.io/), [_Tackling Climate Change with Machine Learning_](https://www.climatechange.ai/events/neurips2021), 
