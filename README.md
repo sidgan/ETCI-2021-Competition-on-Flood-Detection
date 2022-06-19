@@ -13,6 +13,10 @@ by Sayak Paul\*, Siddha Ganju\*.
 	<img src="https://i.ibb.co/X7chPyT/pipeline.png" width=600/>
 </div><br>
 
+**Update (May 17, 2022)**: Orange Business Services, France optimized our public code and made it 2.5 times faster for inference, now inference takes 1.22 seconds over a 63,000 square kilometers tile! Together with Balcony Labs, Oakland, California, an integrated solution was developed which can deliver notifications to mobile devices for early warning and disaster management and has been operationally deployed in Afghanistan, Bangladesh, Mexico, Haiti, and Ukraine. [Read here](https://siliconvalley.orange.com/en/news/rapid-disaster-detection-and-response-a-climate-action-collaboration/)
+
+**Update (May 1, 2022)**:  NVIDIA Deep Learning Institute leveraged this code and produced a new, free, educational course called Disaster Risk Monitoring Using Satellite Imagery, where one can learn to build and deploy a deep learning model to automate the detection of floods using satellite imagery. Check it out [here](https://courses.nvidia.com/courses/course-v1:DLI+S-ES-01+V1/?ncid=so-nvsh-624169#cid=dli03_so-nvsh_en-us)
+
 **Update (April 23, 2022)**: We got a [shoutout from PyTorch](https://twitter.com/PyTorch/status/1517662119700795392).
 
 **Update (December 11, 2021)**: We are releasing a [presentation deck](https://docs.google.com/presentation/d/1CMNK5FuNht_m6owi8lSHd0ksa50JVPeYU88XF39AzA4/edit?usp=sharing), a [presentation video](https://recorder-v3.slideslive.com/?share=52682&s=0258146f-46b5-4696-83a8-60ab25be06c7), and [a poster](https://docs.google.com/presentation/d/1zza2g-9YTsifrq3v10YWz5tbNcsAV0ILANTfuz-IgSI/edit?usp=sharing) of our work. 
